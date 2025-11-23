@@ -1,0 +1,10 @@
+service dsmsca /vendor/bin/dsmsca
+    class core
+    user system
+    group system
+    disabled
+    # run dsmsca periodically every 6 hours
+    restart_period 21600
+
+on boot
+    start dsmsca
