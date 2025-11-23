@@ -1570,6 +1570,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib64/framework-permission-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/framework-permission-aidl-cpp.so \
     vendor/samsung/a22/proprietary/vendor/lib64/gc02m1_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_mipi_raw_IdxMgr.so \
     vendor/samsung/a22/proprietary/vendor/lib64/gc02m1_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_mipi_raw_tuning.so \
+    vendor/samsung/a22/proprietary/vendor/lib64/gc02m1b_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1b_mipi_raw_IdxMgr.so \
+    vendor/samsung/a22/proprietary/vendor/lib64/gc02m1b_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1b_mipi_raw_tuning.so \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@2.0-impl.so \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/android.hardware.audio.effect@6.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@6.0-impl.so \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/android.hardware.audio.effect@7.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@7.0-impl.so \
