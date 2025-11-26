@@ -164,7 +164,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.widevine \
     vendor/samsung/a22/proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek \
     vendor/samsung/a22/proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.composer@2.1-service \
-    vendor/samsung/a22/proprietary/vendor/bin/hw/android.hardware.health@2.1-service-samsung:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.1-service-samsung \
     vendor/samsung/a22/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service \
     vendor/samsung/a22/proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.c2@1.2-mediatek \
     vendor/samsung/a22/proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.c2@1.2-mediatek-64b \
@@ -607,7 +606,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
     vendor/samsung/a22/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
     vendor/samsung/a22/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.1-service.rc \
-    vendor/samsung/a22/proprietary/vendor/etc/init/android.hardware.health@2.1-service-samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service-samsung.rc \
     vendor/samsung/a22/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service.rc \
     vendor/samsung/a22/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
     vendor/samsung/a22/proprietary/vendor/etc/init/android.hardware.memtrack@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.memtrack@1.0-service.rc \
@@ -966,9 +964,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib/android.hardware.drm@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.drm@1.2.so \
     vendor/samsung/a22/proprietary/vendor/lib/android.hardware.drm@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.drm@1.3.so \
     vendor/samsung/a22/proprietary/vendor/lib/android.hardware.drm@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.drm@1.4.so \
-    vendor/samsung/a22/proprietary/vendor/lib/android.hardware.health@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.health@1.0.so \
-    vendor/samsung/a22/proprietary/vendor/lib/android.hardware.health@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.health@2.0.so \
-    vendor/samsung/a22/proprietary/vendor/lib/android.hardware.health@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.health@2.1.so \
     vendor/samsung/a22/proprietary/vendor/lib/android.hardware.media.c2@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.media.c2@1.0.so \
     vendor/samsung/a22/proprietary/vendor/lib/android.hardware.media.c2@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.media.c2@1.1.so \
     vendor/samsung/a22/proprietary/vendor/lib/android.hardware.media.c2@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.media.c2@1.2.so \
@@ -1008,7 +1003,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so \
     vendor/samsung/a22/proprietary/vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
     vendor/samsung/a22/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
-    vendor/samsung/a22/proprietary/vendor/lib/hw/android.hardware.health@2.0-impl-2.1-samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.health@2.0-impl-2.1-samsung.so \
     vendor/samsung/a22/proprietary/vendor/lib/hw/android.hardware.memtrack@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.memtrack@1.0-impl.so \
     vendor/samsung/a22/proprietary/vendor/lib/hw/android.hardware.soundtrigger@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.soundtrigger@2.0-impl.so \
     vendor/samsung/a22/proprietary/vendor/lib/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@1.0-impl.so \
@@ -1393,7 +1387,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth.audio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth.audio@2.0.so \
     vendor/samsung/a22/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth.audio@2.1.so \
     vendor/samsung/a22/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth@2.0.so \
-    vendor/samsung/a22/proprietary/vendor/lib/vendor.samsung.hardware.health@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.health@2.0.so \
     vendor/samsung/a22/proprietary/vendor/lib/vendor.samsung.hardware.hqm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.hqm@1.0.so \
     vendor/samsung/a22/proprietary/vendor/lib/vendor.samsung.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.thermal@1.0.so \
     vendor/samsung/a22/proprietary/vendor/lib/vendor.samsung.hardware.tlc.payment@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.tlc.payment@1.0-impl.so \
@@ -1452,18 +1445,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.drm@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.drm@1.2.so \
     vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.drm@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.drm@1.3.so \
     vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.drm@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.drm@1.4.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.gnss.measurement_corrections@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss.measurement_corrections@1.0.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.gnss.measurement_corrections@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss.measurement_corrections@1.1.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.gnss.visibility_control@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss.visibility_control@1.0.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss@1.0.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.gnss@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss@1.1.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss@2.0.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.gnss@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss@2.1.so \
     vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.graphics.composer@2.1-resources.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.composer@2.1-resources.so \
     vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.graphics.composer@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.composer@2.1.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.health@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.health@1.0.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.health@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.health@2.0.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.health@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.health@2.1.so \
     vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.keymaster@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.keymaster@3.0.so \
     vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.keymaster@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.keymaster@4.0.so \
     vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.keymaster@4.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.keymaster@4.1.so \
@@ -1552,7 +1535,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl.so \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.memtrack@1.0-impl.so \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@1.0-impl.so \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/android.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@2.0-impl.so \
@@ -2131,7 +2113,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib64/vendor.samsung.hardware.camera.provider@4.0-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.provider@4.0-legacy.so \
     vendor/samsung/a22/proprietary/vendor/lib64/vendor.samsung.hardware.camera.provider@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.provider@4.0.so \
     vendor/samsung/a22/proprietary/vendor/lib64/vendor.samsung.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.gnss@2.0.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/vendor.samsung.hardware.health@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.health@2.0.so \
     vendor/samsung/a22/proprietary/vendor/lib64/vendor.samsung.hardware.hqm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.hqm@1.0.so \
     vendor/samsung/a22/proprietary/vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so \
     vendor/samsung/a22/proprietary/vendor/lib64/vendor.samsung.hardware.light-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.light-V1-ndk_platform.so \
@@ -2212,7 +2193,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/tee/tui/resolution_common/ID00000100:$(TARGET_COPY_OUT_VENDOR)/tee/tui/resolution_common/ID00000100
 
 PRODUCT_PACKAGES += \
-    android.hardware.health@2.1-samsung \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu \
     android.hardware.sensors@2.0-multihal \
     android.hardware.wifi.hostapd \
