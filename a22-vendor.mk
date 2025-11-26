@@ -6,6 +6,9 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/a22
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/a22/proprietary/<<<<<<<:$(TARGET_COPY_OUT_SYSTEM)/<<<<<<< \
+    vendor/samsung/a22/proprietary/=======:$(TARGET_COPY_OUT_SYSTEM)/======= \
+    vendor/samsung/a22/proprietary/>>>>>>>:$(TARGET_COPY_OUT_SYSTEM)/>>>>>>> \
     vendor/samsung/a22/proprietary/system/bin/lpm:$(TARGET_COPY_OUT_SYSTEM)/bin/lpm \
     vendor/samsung/a22/proprietary/system/etc/init/init.sec-charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.sec-charger.rc \
     vendor/samsung/a22/proprietary/system/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaptX_encoder.so \
@@ -213,7 +216,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/bin/recordevent:$(TARGET_COPY_OUT_VENDOR)/bin/recordevent \
     vendor/samsung/a22/proprietary/vendor/bin/replayevent:$(TARGET_COPY_OUT_VENDOR)/bin/replayevent \
     vendor/samsung/a22/proprietary/vendor/bin/rt5512_calibration:$(TARGET_COPY_OUT_VENDOR)/bin/rt5512_calibration \
-    vendor/samsung/a22/proprietary/vendor/bin/rtcwake:$(TARGET_COPY_OUT_VENDOR)/bin/rtcwake \
     vendor/samsung/a22/proprietary/vendor/bin/rttv:$(TARGET_COPY_OUT_VENDOR)/bin/rttv \
     vendor/samsung/a22/proprietary/vendor/bin/secril_config_svc:$(TARGET_COPY_OUT_VENDOR)/bin/secril_config_svc \
     vendor/samsung/a22/proprietary/vendor/bin/snap_utility_64:$(TARGET_COPY_OUT_VENDOR)/bin/snap_utility_64 \
@@ -824,7 +826,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/etc/sysconfig/vendor-apex-allowlist.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/vendor-apex-allowlist.xml \
     vendor/samsung/a22/proprietary/vendor/etc/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json \
     vendor/samsung/a22/proprietary/vendor/etc/traceconfig.txt:$(TARGET_COPY_OUT_VENDOR)/etc/traceconfig.txt \
-    vendor/samsung/a22/proprietary/vendor/etc/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc \
     vendor/samsung/a22/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efgid1.xml \
     vendor/samsung/a22/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
     vendor/samsung/a22/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
@@ -894,10 +895,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib/android.hardware.camera.device@3.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.device@3.3.so \
     vendor/samsung/a22/proprietary/vendor/lib/android.hardware.camera.device@3.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.device@3.4.so \
     vendor/samsung/a22/proprietary/vendor/lib/android.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4.so \
-    vendor/samsung/a22/proprietary/vendor/lib/android.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.thermal@1.0.so \
     vendor/samsung/a22/proprietary/vendor/lib/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V1-ndk_platform.so \
     vendor/samsung/a22/proprietary/vendor/lib/audio_common-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/audio_common-aidl-cpp.so \
-    vendor/samsung/a22/proprietary/vendor/lib/audioclient-types-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/audioclient-types-aidl-cpp.so \
     vendor/samsung/a22/proprietary/vendor/lib/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl.so \
     vendor/samsung/a22/proprietary/vendor/lib/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.3-impl.so \
     vendor/samsung/a22/proprietary/vendor/lib/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-impl.so \
@@ -908,7 +907,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib/egl/libMEOW_gift.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_gift.so \
     vendor/samsung/a22/proprietary/vendor/lib/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_qt.so \
     vendor/samsung/a22/proprietary/vendor/lib/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_trace.so \
-    vendor/samsung/a22/proprietary/vendor/lib/framework-permission-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/framework-permission-aidl-cpp.so \
     vendor/samsung/a22/proprietary/vendor/lib/gc02m1_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1_mipi_raw_tuning.so \
     vendor/samsung/a22/proprietary/vendor/lib/gc02m1b_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1b_mipi_raw_tuning.so \
     vendor/samsung/a22/proprietary/vendor/lib/hw/android.hardware.audio@6.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@6.0-impl-mediatek.so \
@@ -923,10 +921,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib/hw/camera.unihal.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.unihal.default.so \
     vendor/samsung/a22/proprietary/vendor/lib/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.default.so \
     vendor/samsung/a22/proprietary/vendor/lib/hw/gatekeeper.mt6769t.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.mt6769t.so \
-    vendor/samsung/a22/proprietary/vendor/lib/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so \
     vendor/samsung/a22/proprietary/vendor/lib/hw/lights.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.mt6768.so \
     vendor/samsung/a22/proprietary/vendor/lib/hw/memtrack.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.default.so \
-    vendor/samsung/a22/proprietary/vendor/lib/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.default.so \
     vendor/samsung/a22/proprietary/vendor/lib/hw/thermal_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal_hal.so \
     vendor/samsung/a22/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
     vendor/samsung/a22/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so \
@@ -935,7 +931,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
     vendor/samsung/a22/proprietary/vendor/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so \
     vendor/samsung/a22/proprietary/vendor/lib/hw/vendor.samsung.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.bluetooth.audio@2.1-impl.so \
-    vendor/samsung/a22/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
     vendor/samsung/a22/proprietary/vendor/lib/hw/vibrator.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.mt6768.so \
     vendor/samsung/a22/proprietary/vendor/lib/imx258f_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx258f_mipi_raw_tuning.so \
     vendor/samsung/a22/proprietary/vendor/lib/imx355_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx355_mipi_raw_tuning.so \
@@ -998,7 +993,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib/libaudioprimarydevicehalifclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioprimarydevicehalifclient.so \
     vendor/samsung/a22/proprietary/vendor/lib/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiotoolkit_vendor.so \
     vendor/samsung/a22/proprietary/vendor/lib/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaurisysdemo.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libavservices_minijail.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavservices_minijail.so \
     vendor/samsung/a22/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
     vendor/samsung/a22/proprietary/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
     vendor/samsung/a22/proprietary/vendor/lib/libbeautyshot.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbeautyshot.arcsoft.so \
@@ -1022,7 +1016,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib/libcodec2_mtk_c2store.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_c2store.so \
     vendor/samsung/a22/proprietary/vendor/lib/libcodec2_mtk_vdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_vdec.so \
     vendor/samsung/a22/proprietary/vendor/lib/libcodec2_mtk_venc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_venc.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libcodec2_simple_component.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_simple_component.so \
     vendor/samsung/a22/proprietary/vendor/lib/libcodec2_soft_mtk_imaadpcmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_soft_mtk_imaadpcmdec.so \
     vendor/samsung/a22/proprietary/vendor/lib/libcodec2_soft_mtk_mp3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_soft_mtk_mp3dec.so \
     vendor/samsung/a22/proprietary/vendor/lib/libcodec2_soft_mtk_msadpcmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_soft_mtk_msadpcmdec.so \
@@ -1040,7 +1033,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libegis_fp_normal_sensor_test.so \
     vendor/samsung/a22/proprietary/vendor/lib/libface_landmark.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib/libface_landmark.arcsoft.so \
     vendor/samsung/a22/proprietary/vendor/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libflatbuffers-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflatbuffers-cpp.so \
     vendor/samsung/a22/proprietary/vendor/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfloatingfeature.so \
     vendor/samsung/a22/proprietary/vendor/lib/libformatConverter.unifunc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libformatConverter.unifunc.so \
     vendor/samsung/a22/proprietary/vendor/lib/libformatter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libformatter.so \
@@ -1053,7 +1045,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib/libgralloc_helper.unifunc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_helper.unifunc.so \
     vendor/samsung/a22/proprietary/vendor/lib/libgralloc_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_metadata.so \
     vendor/samsung/a22/proprietary/vendor/lib/libgralloctypes_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloctypes_mtk.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libgui_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgui_vendor.so \
     vendor/samsung/a22/proprietary/vendor/lib/libgz_gp_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgz_gp_client.so \
     vendor/samsung/a22/proprietary/vendor/lib/libgz_uree.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgz_uree.so \
     vendor/samsung/a22/proprietary/vendor/lib/libh264dec_customize.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_customize.so \
@@ -1115,9 +1106,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnxp_extamp_intf.so \
     vendor/samsung/a22/proprietary/vendor/lib/libnxpsmartpaparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnxpsmartpaparser.so \
     vendor/samsung/a22/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libopus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopus.so \
     vendor/samsung/a22/proprietary/vendor/lib/libpadm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpadm.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libpcap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpcap.so \
     vendor/samsung/a22/proprietary/vendor/lib/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfctl_vendor.so \
     vendor/samsung/a22/proprietary/vendor/lib/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpixelflinger.so \
     vendor/samsung/a22/proprietary/vendor/lib/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpkm.so \
@@ -1148,8 +1137,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib/libsehbluetooth_audio_session.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsehbluetooth_audio_session.so \
     vendor/samsung/a22/proprietary/vendor/lib/libsemnativecarrierfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsemnativecarrierfeature.so \
     vendor/samsung/a22/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libshmemcompat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libshmemcompat.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libshmemutil.so:$(TARGET_COPY_OUT_VENDOR)/lib/libshmemutil.so \
     vendor/samsung/a22/proprietary/vendor/lib/libsimba.media.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimba.media.samsung.so \
     vendor/samsung/a22/proprietary/vendor/lib/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimlock.so \
     vendor/samsung/a22/proprietary/vendor/lib/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimmelock.so \
@@ -1160,34 +1147,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib/libspeakercalibration.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeakercalibration.so \
     vendor/samsung/a22/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
     vendor/samsung/a22/proprietary/vendor/lib/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeechparser_vendor.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_amrnb_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_amrnb_common.so \
     vendor/samsung/a22/proprietary/vendor/lib/libstagefright_bufferqueue_helper_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_bufferqueue_helper_vendor.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_enc_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_enc_common.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_flacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_flacdec.so \
     vendor/samsung/a22/proprietary/vendor/lib/libstagefright_foundation_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_foundation_vendor.so \
     vendor/samsung/a22/proprietary/vendor/lib/libstagefright_omx_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_omx_vendor.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_aacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_aacdec.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_aacenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_aacenc.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_amrdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_amrdec.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_amrnbenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_amrnbenc.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_amrwbenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_amrwbenc.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_avcdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_avcdec.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_avcenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_avcenc.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_flacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_flacdec.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_flacenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_flacenc.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_g711dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_g711dec.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_gsmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_gsmdec.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_hevcdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_hevcdec.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_mp3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mp3dec.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_mpeg2dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mpeg2dec.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_mpeg4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mpeg4dec.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_mpeg4enc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mpeg4enc.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_opusdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_opusdec.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_rawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_rawdec.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_vorbisdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vorbisdec.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_vpxdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vpxdec.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_vpxenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vpxenc.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_softomx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_softomx.so \
     vendor/samsung/a22/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/samsung/a22/proprietary/vendor/lib/libstork_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstork_shared.so \
     vendor/samsung/a22/proprietary/vendor/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpSensorTestNwd.so \
@@ -1212,7 +1174,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib/libvibrator.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvibrator.so \
     vendor/samsung/a22/proprietary/vendor/lib/libvideobeauty.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideobeauty.arcsoft.so \
     vendor/samsung/a22/proprietary/vendor/lib/libvideobeauty.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideobeauty.uniplugin@1.0.so \
-    vendor/samsung/a22/proprietary/vendor/lib/libvorbisidec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvorbisidec.so \
     vendor/samsung/a22/proprietary/vendor/lib/libvp8dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8dec_sa.ca7.so \
     vendor/samsung/a22/proprietary/vendor/lib/libvp8enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8enc_sa.ca7.so \
     vendor/samsung/a22/proprietary/vendor/lib/libvp9dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp9dec_sa.ca7.so \
@@ -1220,8 +1181,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib/libvpud_vcodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpud_vcodec.so \
     vendor/samsung/a22/proprietary/vendor/lib/libvpx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpx.so \
     vendor/samsung/a22/proprietary/vendor/lib/libvt_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvt_custom.so \
+    vendor/samsung/a22/proprietary/vendor/lib/libwsmd_functions.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwsmd_functions.so \
     vendor/samsung/a22/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
-    vendor/samsung/a22/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/samsung/a22/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/a22/proprietary/vendor/lib/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib/meta_wifi_data.so \
     vendor/samsung/a22/proprietary/vendor/lib/mt6768/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6768/libdpframework.so \
@@ -1234,7 +1195,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.sensorhub.so \
     vendor/samsung/a22/proprietary/vendor/lib/shared-file-region-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/shared-file-region-aidl-cpp.so \
     vendor/samsung/a22/proprietary/vendor/lib/soundfx/libaudioeffectoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudioeffectoffload.so \
-    vendor/samsung/a22/proprietary/vendor/lib/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing.so \
     vendor/samsung/a22/proprietary/vendor/lib/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing_mtk.so \
     vendor/samsung/a22/proprietary/vendor/lib/soundfx/libaudiosaplus_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiosaplus_sec.so \
     vendor/samsung/a22/proprietary/vendor/lib/soundfx/libmyspace.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libmyspace.so \
@@ -1296,10 +1256,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.camera.provider@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.5.so \
     vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.camera.provider@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.6.so \
     vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.power-service-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power-service-mediatek.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.thermal@1.0.so \
     vendor/samsung/a22/proprietary/vendor/lib64/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/arm.graphics-V1-ndk_platform.so \
     vendor/samsung/a22/proprietary/vendor/lib64/audio_common-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/audio_common-aidl-cpp.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/audioclient-types-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/audioclient-types-aidl-cpp.so \
     vendor/samsung/a22/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
     vendor/samsung/a22/proprietary/vendor/lib64/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl.so \
     vendor/samsung/a22/proprietary/vendor/lib64/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.3-impl.so \
@@ -1311,7 +1269,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib64/egl/libMEOW_gift.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_gift.so \
     vendor/samsung/a22/proprietary/vendor/lib64/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_qt.so \
     vendor/samsung/a22/proprietary/vendor/lib64/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_trace.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/framework-permission-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/framework-permission-aidl-cpp.so \
     vendor/samsung/a22/proprietary/vendor/lib64/gc02m1_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_mipi_raw_IdxMgr.so \
     vendor/samsung/a22/proprietary/vendor/lib64/gc02m1_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_mipi_raw_tuning.so \
     vendor/samsung/a22/proprietary/vendor/lib64/gc02m1b_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1b_mipi_raw_IdxMgr.so \
@@ -1331,11 +1288,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/gatekeeper.mt6769t.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.mt6769t.so \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/hwcomposer.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.mt6768.so \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/lights.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lights.mt6768.so \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/memtrack.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.default.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.default.so \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/thermal_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal_hal.so \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so \
@@ -1347,7 +1302,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/vendor.samsung.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.bluetooth.audio@2.1-impl.so \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/vibrator.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.mt6768.so \
     vendor/samsung/a22/proprietary/vendor/lib64/imx258f_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx258f_mipi_raw_IdxMgr.so \
     vendor/samsung/a22/proprietary/vendor/lib64/imx258f_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx258f_mipi_raw_tuning.so \
@@ -1510,7 +1464,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib64/libcodec2_sec_mp4vdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_mp4vdec.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libcodec2_sec_soft_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_soft_common.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libcodec2_sec_vc1dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_vc1dec.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/libcodec2_simple_component.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_simple_component.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libcodec2_soft_ac4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_ac4dec.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libcodec2_soft_eac3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_eac3dec.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libcodec2_soft_mtk_imaadpcmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_mtk_imaadpcmdec.so \
@@ -1550,7 +1503,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib64/libfeatureiodrv_mem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeatureiodrv_mem.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libfft_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfft_vendor.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfile_op.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/libflatbuffers-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflatbuffers-cpp.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfloatingfeature.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libforkexecwrap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libforkexecwrap.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libformatConverter.unifunc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libformatConverter.unifunc.so \
@@ -1564,7 +1516,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib64/libgralloc_helper.unifunc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc_helper.unifunc.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libgralloc_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc_metadata.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libgralloctypes_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloctypes_mtk.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/libgui_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgui_vendor.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libgz_gp_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgz_gp_client.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libgz_uree.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgz_uree.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libhdrvideo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdrvideo.so \
@@ -1694,7 +1645,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib64/libnxpsmartpaparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnxpsmartpaparser.so \
     vendor/samsung/a22/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libpadm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpadm.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/libpcap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpcap.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfctl_vendor.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpixelflinger.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpkm.so \
@@ -1736,6 +1686,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib64/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimlock.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimmelock.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libskeymaster4device.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libskeymaster4device.so \
+    vendor/samsung/a22/proprietary/vendor/lib64/libskhynix_q2b_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libskhynix_q2b_shared.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libsnaace.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnaace.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libsnamrnb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnamrnb.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libsnamrwb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnamrwb.so \
@@ -1749,7 +1700,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib64/libspeakercalibration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeakercalibration.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeech_enh_lib.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeechparser_vendor.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/libstagefright_flacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_flacdec.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libstagefright_foundation_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_foundation_vendor.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libstereoinfoaccessor_vsdof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstereoinfoaccessor_vsdof.so \
@@ -1781,8 +1731,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib64/libvkmanager_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvkmanager_vendor.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libvkservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvkservice.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu5.so \
+    vendor/samsung/a22/proprietary/vendor/lib64/libwsmd_functions.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwsmd_functions.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libz_stable.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libz_stable.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/samsung/a22/proprietary/vendor/lib64/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/meta_wifi_data.so \
     vendor/samsung/a22/proprietary/vendor/lib64/mt6768/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6768/libdpframework.so \
     vendor/samsung/a22/proprietary/vendor/lib64/mt6768/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6768/libmtk_drvb.so \
@@ -1796,9 +1746,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib64/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.grip.so \
     vendor/samsung/a22/proprietary/vendor/lib64/sensors.inputvirtual.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.inputvirtual.so \
     vendor/samsung/a22/proprietary/vendor/lib64/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.sensorhub.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/shared-file-region-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/shared-file-region-aidl-cpp.so \
     vendor/samsung/a22/proprietary/vendor/lib64/soundfx/libaudioeffectoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudioeffectoffload.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing.so \
     vendor/samsung/a22/proprietary/vendor/lib64/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing_mtk.so \
     vendor/samsung/a22/proprietary/vendor/lib64/soundfx/libaudiosaplus_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiosaplus_sec.so \
     vendor/samsung/a22/proprietary/vendor/lib64/soundfx/libmyspace.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libmyspace.so \
