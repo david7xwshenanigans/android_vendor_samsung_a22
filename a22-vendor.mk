@@ -154,7 +154,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.c2@1.2-mediatek \
     vendor/samsung/a22/proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.c2@1.2-mediatek-64b \
     vendor/samsung/a22/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron \
-    vendor/samsung/a22/proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service.multihal:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@2.0-service.multihal \
     vendor/samsung/a22/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service-lazy \
     vendor/samsung/a22/proprietary/vendor/bin/hw/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader \
     vendor/samsung/a22/proprietary/vendor/bin/hw/mfgloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mfgloader \
@@ -586,7 +585,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
     vendor/samsung/a22/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
     vendor/samsung/a22/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc \
-    vendor/samsung/a22/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-multihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-multihal.rc \
     vendor/samsung/a22/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
     vendor/samsung/a22/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy.rc \
     vendor/samsung/a22/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
@@ -1940,7 +1938,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu \
-    android.hardware.sensors@2.0-multihal-mtk \
     android.hardware.wifi.hostapd-mtk \
     android.hardware.wifi.supplicant-mtk \
     android.hardware.wifi@1.0-service-mtk \
