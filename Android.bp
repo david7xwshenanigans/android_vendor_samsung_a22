@@ -15,36 +15,36 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.sensors@2.0-multihal",
+	name: "android.hardware.sensors@2.0-multihal-mtk",
 	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.sensors@2.0-multihal.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.sensors@2.0-multihal-mtk.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.wifi.hostapd",
+	name: "android.hardware.wifi.hostapd-mtk",
 	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.hostapd-mtk.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.wifi.supplicant",
+	name: "android.hardware.wifi.supplicant-mtk",
 	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.supplicant-mtk.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.wifi@1.0-service",
+	name: "android.hardware.wifi@1.0-service-mtk",
 	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service-mtk.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
@@ -78,9 +78,9 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "power-default",
+	name: "power-default-mtk",
 	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/power-default.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/power-default-mtk.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
