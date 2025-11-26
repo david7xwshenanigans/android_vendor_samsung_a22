@@ -1456,8 +1456,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.drm@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.drm@1.2.so \
     vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.drm@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.drm@1.3.so \
     vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.drm@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.drm@1.4.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.dumpstate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.dumpstate@1.0.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.dumpstate@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.dumpstate@1.1.so \
     vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.gatekeeper@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gatekeeper@1.0.so \
     vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.gnss.measurement_corrections@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss.measurement_corrections@1.0.so \
     vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.gnss.measurement_corrections@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss.measurement_corrections@1.1.so \
