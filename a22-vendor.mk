@@ -957,7 +957,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib/hw/vendor.samsung.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.bluetooth.audio@2.1-impl.so \
     vendor/samsung/a22/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
     vendor/samsung/a22/proprietary/vendor/lib/hw/vibrator.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.mt6768.so \
-    vendor/samsung/a22/proprietary/vendor/lib/hw/vulkan.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.mt6768.so \
     vendor/samsung/a22/proprietary/vendor/lib/imx258f_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx258f_mipi_raw_tuning.so \
     vendor/samsung/a22/proprietary/vendor/lib/imx355_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx355_mipi_raw_tuning.so \
     vendor/samsung/a22/proprietary/vendor/lib/imx582_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx582_mipi_raw_tuning.so \
@@ -1373,7 +1372,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
     vendor/samsung/a22/proprietary/vendor/lib64/hw/vibrator.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.mt6768.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/hw/vulkan.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.mt6768.so \
     vendor/samsung/a22/proprietary/vendor/lib64/imx258f_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx258f_mipi_raw_IdxMgr.so \
     vendor/samsung/a22/proprietary/vendor/lib64/imx258f_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx258f_mipi_raw_tuning.so \
     vendor/samsung/a22/proprietary/vendor/lib64/imx355_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx355_mipi_raw_IdxMgr.so \
