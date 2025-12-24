@@ -135,6 +135,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/bin/chipinfo:$(TARGET_COPY_OUT_VENDOR)/bin/chipinfo \
     vendor/samsung/a22/proprietary/vendor/bin/dconfig:$(TARGET_COPY_OUT_VENDOR)/bin/dconfig \
     vendor/samsung/a22/proprietary/vendor/bin/dexecutor:$(TARGET_COPY_OUT_VENDOR)/bin/dexecutor \
+    vendor/samsung/a22/proprietary/vendor/bin/hw/android.hardware.usb@1.3-service.coral:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.3-service.coral \
+    vendor/samsung/a22/proprietary/vendor/etc/init/android.hardware.usb@1.3-service.coral.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.3-service.coral.rc \
     vendor/samsung/a22/proprietary/vendor/bin/dmc_core:$(TARGET_COPY_OUT_VENDOR)/bin/dmc_core \
     vendor/samsung/a22/proprietary/vendor/bin/doeapp-memtester:$(TARGET_COPY_OUT_VENDOR)/bin/doeapp-memtester \
     vendor/samsung/a22/proprietary/vendor/bin/doeapp-sat:$(TARGET_COPY_OUT_VENDOR)/bin/doeapp-sat \
