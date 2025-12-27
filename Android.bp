@@ -60,15 +60,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_vendor.samsung.hardware.security.widevine.keyprov@1.0-service",
-	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/manifest_vendor.samsung.hardware.security.widevine.keyprov@1.0-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "nxp.android.hardware.nfc@1.2-service",
 	owner: "samsung",
 	src: "proprietary/vendor/etc/vintf/manifest/nxp.android.hardware.nfc@1.2-service.xml",
@@ -87,15 +78,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.samsung.hardware.hqm@1.0-manifest",
-	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.hqm@1.0-manifest.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "vendor.samsung.hardware.snap-default",
 	owner: "samsung",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.snap-default.xml",
@@ -108,24 +90,6 @@ prebuilt_etc_xml {
 	name: "vendor.samsung.hardware.thermal@1.0-manifest",
 	owner: "samsung",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.thermal@1.0-manifest.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "vendor.samsung.hardware.tlc.iccc@1.0-manifest",
-	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.iccc@1.0-manifest.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "vendor.samsung.hardware.tlc.kg@1.1-manifest",
-	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.kg@1.1-manifest.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
