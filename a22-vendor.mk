@@ -1644,12 +1644,12 @@ PRODUCT_PACKAGES += \
     mediatek-common \
     mediatek-framework \
     mediatek-ims-base \
-    android.hardware.neuralnetworks@1.3-service-mtk-gpu \
-    android.hardware.usb@1.3-service.coral \
-    lights-default-sec \
-    manifest_android.hardware.drm@1.4-service.widevine \
-    nxp.android.hardware.nfc@1.2-service \
-    vendor.samsung.hardware.biometrics.fingerprint@3.0-service \
-    vendor.samsung.hardware.snap-default \
-    vendor.samsung.hardware.thermal@1.0-manifest \
-    vendor.samsung.hardware.vibrator-default
+    android.hardware.neuralnetworks@1.3-service-mtk-gpu.xml \
+    android.hardware.usb@1.3-service.coral.xml \
+    lights-default-sec.xml \
+    manifest_android.hardware.drm@1.4-service.widevine.xml \
+    nxp.android.hardware.nfc@1.2-service.xml \
+    vendor.samsung.hardware.biometrics.fingerprint@3.0-service.xml \
+    vendor.samsung.hardware.snap-default.xml \
+    vendor.samsung.hardware.thermal@1.0-manifest.xml \
+    vendor.samsung.hardware.vibrator-default.xml
