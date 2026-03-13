@@ -38,3 +38,4 @@
 <boot_file>/system/lib64/libgpud_sys.so</boot_file>
 <boot_file>/system/bin/surfaceflinger</boot_file>
 </records>
+
