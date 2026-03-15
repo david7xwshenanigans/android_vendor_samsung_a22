@@ -4,6 +4,7 @@
 
 soong_namespace {
 	imports: [
+		"hardware/mediatek",
 	],
 }
 
@@ -11,6 +12,7 @@ dex_import {
 	name: "mediatek-common",
 	owner: "samsung",
 	jars: ["proprietary/system/framework/mediatek-common.jar"],
+	prefer: true,
 }
 
 dex_import {

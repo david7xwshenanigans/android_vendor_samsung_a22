@@ -692,18 +692,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/AVCSecureVdecCA.so \
     vendor/samsung/a22/proprietary/vendor/lib/AVCSecureVencCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/AVCSecureVencCA.so \
     vendor/samsung/a22/proprietary/vendor/lib/VP9SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/VP9SecureVdecCA.so \
-    vendor/samsung/a22/proprietary/vendor/lib/android.frameworks.cameraservice.common@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.frameworks.cameraservice.common@2.0.so \
-    vendor/samsung/a22/proprietary/vendor/lib/android.frameworks.cameraservice.device@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.frameworks.cameraservice.device@2.0.so \
-    vendor/samsung/a22/proprietary/vendor/lib/android.frameworks.cameraservice.device@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.frameworks.cameraservice.device@2.1.so \
-    vendor/samsung/a22/proprietary/vendor/lib/android.frameworks.cameraservice.service@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.frameworks.cameraservice.service@2.0.so \
-    vendor/samsung/a22/proprietary/vendor/lib/android.frameworks.cameraservice.service@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.frameworks.cameraservice.service@2.1.so \
-    vendor/samsung/a22/proprietary/vendor/lib/android.frameworks.cameraservice.service@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.frameworks.cameraservice.service@2.2.so \
-    vendor/samsung/a22/proprietary/vendor/lib/android.hardware.camera.common@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.common@1.0.so \
-    vendor/samsung/a22/proprietary/vendor/lib/android.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.device@1.0.so \
-    vendor/samsung/a22/proprietary/vendor/lib/android.hardware.camera.device@3.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.device@3.2.so \
-    vendor/samsung/a22/proprietary/vendor/lib/android.hardware.camera.device@3.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.device@3.3.so \
-    vendor/samsung/a22/proprietary/vendor/lib/android.hardware.camera.device@3.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.device@3.4.so \
-    vendor/samsung/a22/proprietary/vendor/lib/android.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4.so \
     vendor/samsung/a22/proprietary/vendor/lib/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V1-ndk_platform.so \
     vendor/samsung/a22/proprietary/vendor/lib/audio_common-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/audio_common-aidl-cpp.so \
     vendor/samsung/a22/proprietary/vendor/lib/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl.so \
@@ -953,6 +941,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib/libstagefright_bufferqueue_helper_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_bufferqueue_helper_vendor.so \
     vendor/samsung/a22/proprietary/vendor/lib/libstagefright_foundation_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_foundation_vendor.so \
     vendor/samsung/a22/proprietary/vendor/lib/libstagefright_omx_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_omx_vendor.so \
+    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_aacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_aacdec.so \
+    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_aacenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_aacenc.so \
+    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_amrdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_amrdec.so \
+    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_amrnbenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_amrnbenc.so \
+    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_amrwbenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_amrwbenc.so \
+    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_flacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_flacdec.so \
+    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_flacenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_flacenc.so \
+    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_g711dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_g711dec.so \
+    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_mp3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mp3dec.so \
+    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_opusdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_opusdec.so \
+    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_rawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_rawdec.so \
+    vendor/samsung/a22/proprietary/vendor/lib/libstagefright_soft_vorbisdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vorbisdec.so \
     vendor/samsung/a22/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/samsung/a22/proprietary/vendor/lib/libstork_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstork_shared.so \
     vendor/samsung/a22/proprietary/vendor/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpSensorTestNwd.so \
@@ -1030,22 +1030,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib64/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AVCSecureVdecCA.so \
     vendor/samsung/a22/proprietary/vendor/lib64/AVCSecureVencCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AVCSecureVencCA.so \
     vendor/samsung/a22/proprietary/vendor/lib64/VP9SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/VP9SecureVdecCA.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.frameworks.cameraservice.common@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.cameraservice.common@2.0.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.frameworks.cameraservice.device@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.cameraservice.device@2.0.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.frameworks.cameraservice.device@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.cameraservice.device@2.1.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.frameworks.cameraservice.service@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.cameraservice.service@2.0.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.frameworks.cameraservice.service@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.cameraservice.service@2.1.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.frameworks.cameraservice.service@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.cameraservice.service@2.2.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.camera.common@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.common@1.0.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@1.0.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.camera.device@3.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.2.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.camera.device@3.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.3.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.camera.device@3.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.4.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.camera.device@3.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.5.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.camera.device@3.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.6.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.camera.provider@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.5.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/android.hardware.camera.provider@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.6.so \
     vendor/samsung/a22/proprietary/vendor/lib64/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/arm.graphics-V1-ndk_platform.so \
     vendor/samsung/a22/proprietary/vendor/lib64/audio_common-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/audio_common-aidl-cpp.so \
     vendor/samsung/a22/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
@@ -1504,7 +1488,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/lib64/libvkmanager_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvkmanager_vendor.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libvkservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvkservice.so \
     vendor/samsung/a22/proprietary/vendor/lib64/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu5.so \
-    vendor/samsung/a22/proprietary/vendor/lib64/libwifi-hal-mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal-mtk.so \
     vendor/samsung/a22/proprietary/vendor/lib64/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/meta_wifi_data.so \
     vendor/samsung/a22/proprietary/vendor/lib64/mt6768/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6768/libdpframework.so \
     vendor/samsung/a22/proprietary/vendor/lib64/mt6768/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6768/libmtk_drvb.so \
