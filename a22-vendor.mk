@@ -191,6 +191,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/bin/replayevent:$(TARGET_COPY_OUT_VENDOR)/bin/replayevent \
     vendor/samsung/a22/proprietary/vendor/bin/rt5512_calibration:$(TARGET_COPY_OUT_VENDOR)/bin/rt5512_calibration \
     vendor/samsung/a22/proprietary/vendor/bin/rttv:$(TARGET_COPY_OUT_VENDOR)/bin/rttv \
+    vendor/samsung/a22/proprietary/vendor/bin/secril_config_svc:$(TARGET_COPY_OUT_VENDOR)/bin/secril_config_svc \
     vendor/samsung/a22/proprietary/vendor/bin/snap_utility_64:$(TARGET_COPY_OUT_VENDOR)/bin/snap_utility_64 \
     vendor/samsung/a22/proprietary/vendor/bin/storkd:$(TARGET_COPY_OUT_VENDOR)/bin/storkd \
     vendor/samsung/a22/proprietary/vendor/bin/stp_dump3:$(TARGET_COPY_OUT_VENDOR)/bin/stp_dump3 \
@@ -606,6 +607,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a22/proprietary/vendor/etc/mercury.json:$(TARGET_COPY_OUT_VENDOR)/etc/mercury.json \
     vendor/samsung/a22/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/samsung/a22/proprietary/vendor/etc/mtu-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtu-conf.xml \
+    vendor/samsung/a22/proprietary/vendor/etc/nfc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nxp_RF.conf \
     vendor/samsung/a22/proprietary/vendor/etc/pdpcnt-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pdpcnt-conf.xml \
     vendor/samsung/a22/proprietary/vendor/etc/permissions/com.nxp.mifare.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nxp.mifare.xml \
     vendor/samsung/a22/proprietary/vendor/etc/permissions/vendor.samsung.hardware.telephony.gsm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.samsung.hardware.telephony.gsm.xml \
