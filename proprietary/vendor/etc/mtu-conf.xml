@@ -616,6 +616,10 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="50502" mtu="1280" profile="2"/>
     <mtuTableEntry numeric="50502" mtu="1280" rat="4"/>
 
+<!--  Telstra AU -->
+    <mtuTableEntry numeric="50501" mtu="1280" profile="2"/>
+    <mtuTableEntry numeric="50501" mtu="1280" rat="4"/>
+
 <!-- MOI QATAR -->
     <mtuTableEntry numeric="42706" mtu="1280" rat="4"/>
 
